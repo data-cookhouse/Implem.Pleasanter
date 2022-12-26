@@ -24,3 +24,4 @@ services:
         - Implem.Pleasanter_Rds_PostgreSQL_OwnerConnectionString=${Implem_Pleasanter_Rds_PostgreSQL_OwnerConnectionString}
         - Implem.Pleasanter_Rds_PostgreSQL_UserConnectionString=${Implem_Pleasanter_Rds_PostgreSQL_UserConnectionString}
     image: implem.codedefiner
+    container_name: codedefiner
